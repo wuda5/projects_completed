@@ -7,6 +7,9 @@
 public static void main(){
     System.out.print("1111");
 }
+public static void main(String[] args){
+//
+}
 ```
 
 ## 2、语法

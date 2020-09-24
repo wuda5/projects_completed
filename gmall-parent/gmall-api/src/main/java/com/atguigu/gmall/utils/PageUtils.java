@@ -11,7 +11,7 @@ public class PageUtils {
 
     public static Map<String, Object> getPageMap(IPage page) {
 
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> map = new HashMap<String, Object>();
         map.put("pageSize",page);
         map.put("totalPage",page.getPages());
         map.put("total",page.getTotal());
